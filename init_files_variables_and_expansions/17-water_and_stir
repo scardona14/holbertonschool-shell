@@ -1,3 +1,2 @@
 #!/bin/bash
-WATER="ewwatratewa" STIR="ti.itirtrtr" eval 'for i in {0..7}; do WATER=${WATER//["etawr"]/$i}; STIR=${STIR//["rits."]/$i}; done; echo "obase=8; $((0x$WATER + 0x$STIR))" | bc'
-
+export WATER="ewwatratewa" STIR="ti.itirtrtr" && echo "ibase=water;obase=bestchol;ibase=stir;$(($WATER+$STIR))" | bc
