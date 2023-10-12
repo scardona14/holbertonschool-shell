@@ -1,2 +1,2 @@
 #!/bin/bash
-export WATER="ewwatratewa" STIR="ti.itirtrtr" && echo "ibase=water;obase=bestchol;ibase=stir;$(($WATER+$STIR))" | bc
+export WATER="ewwatratewa" STIR="ti.itirtrtr" BC_LINE="ibase=water;obase=bestchol;ibase=stir;$(($WATER+$STIR))" bc <<< "$BC_LINE"
